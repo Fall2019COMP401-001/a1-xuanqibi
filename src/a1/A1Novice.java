@@ -18,13 +18,11 @@ public class A1Novice {
 		double[] count = new double[num_of_customers];
 
 		for (int i = 0; i < num_of_customers; i++) {
-			scan = new Scanner (System.in);
 			String customer = scan.next();	
 			finitial[i] = customer.charAt(0);
 			lname[i] = scan.next();
 			int items = scan.nextInt();
 			for (int n = 0; n < items; n++) {
-				scan = new Scanner (System.in);
 				int num_each = scan.nextInt();
 				String type = scan.next();
 				double each_price = scan.nextDouble();
