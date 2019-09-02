@@ -14,11 +14,8 @@ public class A1Jedi {
 		int item_count = scan.nextInt();
 		String[] name = new String[item_count];
 		double[] price = new double[item_count]; 
-		for (int i = 0; i < item_count; i++) {
-			scan = new Scanner(System.in);
-			
+		for (int i = 0; i < item_count; i++) {			
 			name[i] = scan.next();
-			
 			price[i] = scan.nextDouble();
 		}
 		int num_of_customers = scan.nextInt();
