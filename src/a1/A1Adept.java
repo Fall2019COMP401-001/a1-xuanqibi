@@ -18,7 +18,6 @@ public class A1Adept {
 			name[i] = scan.next();
 			price[i] = scan.nextDouble();
 		}
-		scan = new Scanner (System.in);
 		int num_of_customers = scan.nextInt();
 		String[] customer = new String[num_of_customers];
 		String[] lname = new String[num_of_customers];
