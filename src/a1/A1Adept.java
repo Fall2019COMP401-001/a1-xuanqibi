@@ -16,7 +16,9 @@ public class A1Adept {
 		double[] price = new double[item_count]; 
 		for (int i = 0; i < item_count; i++) {
 			scan = new Scanner(System.in);
+			
 			name[i] = scan.next();
+			
 			price[i] = scan.nextDouble();
 		}
 		scan = new Scanner (System.in);
